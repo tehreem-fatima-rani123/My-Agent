@@ -23,7 +23,7 @@ Agent1 = Agent(
  
 response = Runner.run_sync( 
     starting_agent=Agent1, 
-    input=" How are you ", 
+    input=" hello ", 
 ) 
  
 print(response.final_output) 
